@@ -1,0 +1,85 @@
+.postcontainer {
+  width: 100%;
+  margin: auto;
+  border-radius: 10px;
+  padding: 20px;
+  background: linear-gradient(-45deg, #0438a1 0%, #b3b0b0 100%);
+}
+
+.postheader {
+  display: flex;
+  align-items: center;
+}
+
+.profilepic {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.postinfo h3 {
+  margin: 0;
+  color: white;
+}
+
+.postinfo p {
+  margin: 0;
+  color: wheat;
+}
+
+.postcontent {
+  margin: 20px 0;
+}
+
+.postactions {
+  display: flex;
+  justify-content: start;
+  margin-bottom: 20px;
+}
+
+.postactions p {
+  color: black;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.commentsection {
+  display: flex;
+  align-items: flex-start;
+}
+
+.commentsection img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.commentsection textarea {
+  width: 80%;
+  height: 80px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.commentbuttons {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.postbtn,
+.cancelbtn {
+  background: linear-gradient(-45deg, #0438a1 0%, #b3b0b0 100%);
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.cancelbtn {
+  background: #ccc;
+}

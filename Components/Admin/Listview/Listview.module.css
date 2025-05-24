@@ -1,0 +1,53 @@
+.userTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+}
+
+.userTable th, .userTable td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+}
+
+.userTable th {
+    background-color: #3556ce;
+    color: #333;
+}
+
+.userTable tr:nth-of-type(even) {
+    background-color: #989090;
+}
+
+.userTable tr:hover {
+    background-color: #82aee7;
+}
+
+.deleteButton {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.deleteButton:hover {
+    background-color: #ff1a1a;
+}
+
+.blockButton {
+    background-color: #cc9246;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.blockButton:hover {
+    background-color: #ff8400;
+}
